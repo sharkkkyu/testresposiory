@@ -6,11 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Eat.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Fish : NSObject
-
+@interface Fish : NSObject <Eat>
+@property (nonatomic) NSString *name;
+-(int) add 
 @end
 
 NS_ASSUME_NONNULL_END

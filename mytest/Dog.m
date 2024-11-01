@@ -8,5 +8,10 @@
 #import "Dog.h"
 
 @implementation Dog
-
+-(void) eat {
+    NSLog(@"dog eat");
+}
+-(void) watch {
+    NSLog(@"dog watch");
+}
 @end

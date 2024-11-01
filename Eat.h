@@ -10,7 +10,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol Eat <NSObject>
-
+@required
+-(void) eat;
+@optional
+-(void) watch;
 @end
 
 NS_ASSUME_NONNULL_END

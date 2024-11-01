@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A378AC412C78344E00802CE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A378AC402C78344E00802CE1 /* main.m */; };
+		A378AC4A2C7834A900802CE1 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = A378AC492C7834A900802CE1 /* Man.m */; };
+		A378AC4D2C7834BE00802CE1 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = A378AC4C2C7834BE00802CE1 /* Fish.m */; };
+		A378AC502C7834CE00802CE1 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = A378AC4F2C7834CE00802CE1 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		A378AC3D2C78344E00802CE1 /* mytest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mytest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A378AC402C78344E00802CE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A378AC472C78346F00802CE1 /* Eat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Eat.h; sourceTree = "<group>"; };
+		A378AC482C7834A900802CE1 /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		A378AC492C7834A900802CE1 /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		A378AC4B2C7834BE00802CE1 /* Fish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
+		A378AC4C2C7834BE00802CE1 /* Fish.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
+		A378AC4E2C7834CE00802CE1 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		A378AC4F2C7834CE00802CE1 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +51,7 @@
 		A378AC342C78344E00802CE1 = {
 			isa = PBXGroup;
 			children = (
+				A378AC472C78346F00802CE1 /* Eat.h */,
 				A378AC3F2C78344E00802CE1 /* mytest */,
 				A378AC3E2C78344E00802CE1 /* Products */,
 			);
@@ -58,6 +69,12 @@
 			isa = PBXGroup;
 			children = (
 				A378AC402C78344E00802CE1 /* main.m */,
+				A378AC482C7834A900802CE1 /* Man.h */,
+				A378AC492C7834A900802CE1 /* Man.m */,
+				A378AC4B2C7834BE00802CE1 /* Fish.h */,
+				A378AC4C2C7834BE00802CE1 /* Fish.m */,
+				A378AC4E2C7834CE00802CE1 /* Dog.h */,
+				A378AC4F2C7834CE00802CE1 /* Dog.m */,
 			);
 			path = mytest;
 			sourceTree = "<group>";
@@ -119,6 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A378AC4D2C7834BE00802CE1 /* Fish.m in Sources */,
+				A378AC4A2C7834A900802CE1 /* Man.m in Sources */,
+				A378AC502C7834CE00802CE1 /* Dog.m in Sources */,
 				A378AC412C78344E00802CE1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

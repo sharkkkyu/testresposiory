@@ -6,11 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Eat.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Man : NSObject
-
+@interface Man : NSObject <Eat>
+@property (nonatomic, weak) id <Eat> delegate;
 @end
 
 NS_ASSUME_NONNULL_END

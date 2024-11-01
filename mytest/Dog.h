@@ -6,10 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Eat.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Dog : NSObject
+@interface Dog : NSObject <Eat>
 
 @end
 

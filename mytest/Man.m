@@ -8,5 +8,10 @@
 #import "Man.h"
 
 @implementation Man
-
+-(void) eat {
+    NSLog(@"Man eat");
+}
+-(void) watch {
+    NSLog(@"man watch");
+}
 @end

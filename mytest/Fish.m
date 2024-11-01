@@ -8,5 +8,7 @@
 #import "Fish.h"
 
 @implementation Fish
-
+-(void) eat {
+    NSLog(@"fish eat");
+}
 @end
